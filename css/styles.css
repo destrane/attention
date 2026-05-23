@@ -174,10 +174,10 @@ h1,h2,h3{margin:0;font-weight:700;line-height:1.04}
 .hero{position:relative;min-height:100svh;display:flex;align-items:center;
   padding:120px 0 80px;overflow:hidden}
 .hero__bg{position:absolute;inset:0;z-index:0;pointer-events:none}
-.hero__img{position:absolute;top:50%;right:-6%;width:min(74vh,820px);height:auto;
+.hero__img{position:absolute;top:42%;right:-10%;width:min(90vh,1000px);height:auto;
   transform:translate(0,-50%);
-  -webkit-mask-image:radial-gradient(70% 70% at 55% 45%,#000 55%,transparent 86%);
-          mask-image:radial-gradient(70% 70% at 55% 45%,#000 55%,transparent 86%);
+  -webkit-mask-image:radial-gradient(62% 62% at 54% 56%,#000 60%,transparent 86%);
+          mask-image:radial-gradient(62% 62% at 54% 56%,#000 60%,transparent 86%);
   filter:saturate(1.05) contrast(1.03)}
 .hero__bg::after{content:"";position:absolute;inset:0;
   background:
