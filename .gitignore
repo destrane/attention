@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+
+# Intermediate image-processing artifacts (banknote slicing, contact sheets)
+assets/notes/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
